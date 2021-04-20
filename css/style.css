@@ -1,6 +1,5 @@
 /*
 
-
 Design as collective improvisation
 
 Brother 1816 Light
@@ -33,19 +32,77 @@ font-family: brother-1816, sans-serif;
 font-weight: 900;
 font-style: normal;
 
-
 */
 
 
 body{
     font-family: brother-1816, sans-serif;
     width: 90%;
-    max-width: 600px;
+    max-width: 660px;
     margin: 0 auto;
+    background-image: url("../img/wooden-circle.jpg");
+    background-position: 45% 55%;
+}
+
+main{
+    background-color: rgba(156, 1, 1, 0.534);
+    display: grid;
+    grid-template-columns: repeat( auto-fit, minmax(200px, 1fr) );
+    grid-gap: 1em;
+    padding: 1em;
+    mix-blend-mode:hard-light;
 }
 
 h1{
+    color: white;
+    margin: 2em 0 0 0;
+    grid-column-start: 1;
+    grid-column-end: 4;
+    line-height: 92%;
+    font-size: 2em;
+    text-transform: uppercase;
     font-family: brother-1816, sans-serif;
     font-weight: 900;
     font-style: normal;
+}
+
+blockquote{
+    grid-column-start: 1;
+    grid-column-end: 4;
+    mix-blend-mode: screen;
+    background-color: rgba(236, 223, 223, 0.534);
+    padding: 2em;
+    margin: 0 -1em;
+}
+
+blockquote strong{
+    float: right;
+}
+
+h2{
+    color: white;
+    grid-column-start: 1;
+    grid-column-end: 2;
+}
+p{
+    color: white;
+    grid-column-start: 2;
+    grid-column-end: 4;
+}
+
+footer{
+    background-color: rgba(10, 8, 8, 0.534);
+    font-size: 90%;
+    margin: 0;
+    padding: 1em;
+}
+
+footer ul li{
+    display: inline-block;
+    margin: 0 1em 0 0;
+}
+
+a,
+a:visited{
+    color:white;
 }
