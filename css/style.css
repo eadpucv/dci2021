@@ -36,6 +36,11 @@ h1{
     font-style: normal;
 }
 
+.uc{
+    text-transform: uppercase;
+    font-weight: 200;
+}
+
 blockquote{
     grid-column-start: 1;
     grid-column-end: 4;
@@ -43,6 +48,11 @@ blockquote{
     background-color: rgba(236, 223, 223, 0.534);
     padding: 2em;
     margin: 0 -1em;
+}
+
+blockquote span{
+    font-size: 2em;
+    font-weight: 100;
 }
 
 blockquote strong{
