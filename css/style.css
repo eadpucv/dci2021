@@ -8,10 +8,10 @@ Design as collective improvisation
 body{
     font-family: brother-1816, sans-serif;
     width: 90%;
-    max-width: 660px;
-    margin: 0 auto;
+    max-width: 51em;
+    margin: 0 auto 0 8%;
     background-image: url("../img/wc.jpg");
-    background-position: 45% 55%;
+    background-position: 33% 55%;
 }
 
 main{
@@ -51,8 +51,15 @@ blockquote{
 }
 
 blockquote span{
-    font-size: 2em;
     font-weight: 100;
+    font-size: 2.5em;
+    line-height: 96%;
+    display: inline-block;
+    width: 80%;
+    color: rgba(0,0,0,.85);
+}
+aside{
+
 }
 
 blockquote strong{
@@ -71,7 +78,7 @@ p{
 }
 
 footer{
-    background-color: rgba(10, 8, 8, 0.534);
+    background-color: rgba(15, 10, 10, 0.609);
     font-size: 90%;
     margin: 0;
     padding: 1em;
@@ -86,3 +93,22 @@ a,
 a:visited{
     color:white;
 }
+
+
+/**/
+
+
+/* style.css | https://dci2021.org/css/style.css */
+
+body {
+    /* max-width: 660px; */
+    /* margin: 0 auto; */
+    /* background-position: 45% 55%; */
+
+  }
+  
+  blockquote span {
+    /* font-size: 2em; */
+
+  }
+  
