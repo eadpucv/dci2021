@@ -44,6 +44,7 @@ h1 {
     font-family: brother-1816, sans-serif;
     font-weight: 900;
     font-style: normal;
+    hyphens: auto;
 }
 
 .lang-selector {
@@ -135,12 +136,20 @@ footer {
     background-color: var(--col-fade-black);
     font-size: 90%;
     margin: 0;
-    padding: 1em;
+    padding: 1em 1em 2em 1em;
 }
 
 footer ul li {
     display: inline-block;
     margin: 0 1em 0 0;
+}
+
+footer a {
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
 }
 
 a,
@@ -154,4 +163,22 @@ a.btn {
     padding: .3ex 1.2ex .7ex 1.2ex;
     background-color: var(--col-fade-black);
     border: 2px solid white
+}
+
+@media only screen and (max-width: 51em) {
+    body {
+        width: 95%;
+        margin: 0 auto;
+        display: block;
+    }
+    .lang-selector {
+        position: inherit;
+        margin: 1em 0
+    }
+    main {
+        display: block;
+    }
+    .photo {
+        margin: 0 -1em;
+    }
 }
