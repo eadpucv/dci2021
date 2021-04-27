@@ -115,7 +115,7 @@ blockquote strong {
     text-align: center;
 }
 
-img {
+.col img {
     width: 100%;
     height: auto;
 }
@@ -139,13 +139,38 @@ footer {
     padding: 1em 1em 2em 1em;
 }
 
+footer ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
 footer ul li {
-    display: inline-block;
-    margin: 0 1em 0 0;
+    display: ;
+    margin: 1em;
+    max-width: 30%;
+    text-align: center;
+    font-size: .8em;
 }
 
 footer a {
     text-decoration: none;
+}
+
+footer #ead img{
+    width: 50%;
+    height: auto;
+}
+
+footer #loci img{
+    width: 70%;
+    height: auto;
+}
+
+footer #arena img{
+    width: 90%;
+    height: auto;
 }
 
 footer a:hover {
