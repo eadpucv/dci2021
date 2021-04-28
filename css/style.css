@@ -9,6 +9,7 @@ Design as collective improvisation
 :root {
     --col-fade-black: rgba(15, 10, 10, 0.719);
     --col-fade-white: rgba(251, 247, 234, 0.589);
+    --text-shadow: 1px 1px 2px var(--col-fade-black);
 }
 
 html {
@@ -48,10 +49,11 @@ h1 {
     font-weight: 900;
     font-style: normal;
     hyphens: auto;
+    text-shadow: var(--text-shadow);
 }
 
 .lang-selector {
-    position: absolute;
+    position: fixed;
     right: 2em;
     top: 1em;
     text-transform: uppercase;
@@ -116,6 +118,7 @@ blockquote strong {
     color: rgba(0, 0, 0, .8);
     font-size: .85em;
     text-align: center;
+    text-shadow: none;
 }
 
 .col img {
@@ -127,12 +130,14 @@ h2 {
     color: white;
     grid-column-start: 1;
     grid-column-end: 2;
+    text-shadow: var(--text-shadow);
 }
 
 .col {
     color: white;
     grid-column-start: 2;
     grid-column-end: 4;
+    text-shadow: var(--text-shadow);
 }
 
 footer {
