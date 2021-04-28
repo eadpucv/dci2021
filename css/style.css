@@ -2,10 +2,13 @@
 
 Design as collective improvisation
 
+@hspencer 2021
+
 */
 
 :root {
-    --col-fade-black: rgba(15, 10, 10, 0.6);
+    --col-fade-black: rgba(15, 10, 10, 0.719);
+    --col-fade-white: rgba(251, 247, 234, 0.589);
 }
 
 html {
@@ -26,7 +29,7 @@ body {
 }
 
 main {
-    background-color: rgba(156, 1, 1, 0.534);
+    background-color: rgba(131, 2, 2, 0.596);
     display: grid;
     grid-template-columns: repeat( auto-fit, minmax(200px, 1fr));
     grid-gap: 1em;
@@ -84,7 +87,7 @@ blockquote {
     grid-column-start: 1;
     grid-column-end: 4;
     grid-template-columns: 1fr 1fr 1fr;
-    background-color: rgba(236, 223, 223, 0.534);
+    background-color: var(--col-fade-white);
     padding: 2em;
     margin: 0 -1em;
     clip-path: polygon(0% 0%, 100% 0%, 100% 100%, 5em 100%);
@@ -104,7 +107,7 @@ blockquote strong {
 }
 
 .photo {
-    background-color: rgba(255, 255, 255, .6);
+    background-color: var(--col-fade-white);
     margin-right: -1em;
     padding: 1ex;
 }
