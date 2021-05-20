@@ -155,7 +155,8 @@ footer ul{
 }
 
 footer ul li {
-    display: ;
+    display: inline;
+    list-style-type: none;
     margin: 1em;
     max-width: 30%;
     text-align: center;
